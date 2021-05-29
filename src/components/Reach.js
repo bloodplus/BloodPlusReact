@@ -96,7 +96,7 @@ const Image = styled.div`
         >div{
         max-width: 60px;
         position: absolute;
-        top: 62px;
+        top: 82px;
         left: 42px;
         >p{
             font-size: x-small;
@@ -140,11 +140,11 @@ const Form = styled.div`
     margin-left: 40px;
     color: rgba(0, 0, 0, 0.5);
   }
-  @media (min-width: 320px) and (max-width: 768px) {
-    margin-left: 0;
+  @media (min-width: 310px) and (max-width: 768px) {
+    margin-left: 15px;
     > h1 {
       text-align: center;
-      margin-left: 0;
+      margin-left: 0px;
       font-size: large;
     }
   }

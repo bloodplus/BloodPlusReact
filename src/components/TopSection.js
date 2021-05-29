@@ -97,9 +97,10 @@ const Role = styled.div`
     flex-direction: row;
     padding: 10px;
     >h3{
-    padding: 2px 15px;
-    font-size: 0.3rem;
+    padding: 2px 12px;
+    font-size: 1.4rem;
   }
+    
   }
   
 `;
@@ -164,11 +165,11 @@ const HeroImage = styled.div`
       margin-top: 0;
       >h1{
         font-size: 2rem;
-        margin-top: 14px;
+        margin-top: 12px;
        }
       >h5{
         margin-top: 12px;
-        font-size: 0.5rem;
+        font-size: 1.3rem;
       }
     }
   
@@ -201,11 +202,14 @@ const HeroImage = styled.div`
 
     @media(min-width: 310px) and (max-width: 768px){
       >button{
-        width: 180px;
+        width: 170px;
         margin-top: 0;
+        
       }
       >h5{
         text-align: left;
+        font-size: small;
+
       }
     }  
   `;
