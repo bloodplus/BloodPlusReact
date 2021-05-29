@@ -202,13 +202,13 @@ const HeroImage = styled.div`
 
     @media(min-width: 310px) and (max-width: 768px){
       >button{
-        width: 170px;
+        width: 200px;
         margin-top: 0;
         
       }
       >h5{
         text-align: left;
-        font-size: small;
+        font-size: large;
 
       }
     }  
